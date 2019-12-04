@@ -1,6 +1,4 @@
-sudo: false
 language: cpp
-cache: ccache
 matrix:
   include:
 
