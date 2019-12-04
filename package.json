@@ -1,0 +1,32 @@
+{
+  "name": "bitcoinnova-crypto",
+  "version": "3.1.0",
+  "description": "Node C++ Addon for Bitcoin Nova Cryptographic Functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "test": "mocha tests/crypto.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitcoinNova/bitcoinnova-crypto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BitcoinNova/bitcoinnova-crypto/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "engineStrict": true,
+  "homepage": "https://github.com/BitcoinNova/bitcoinnova-crypto#readme",
+  "author": "The Bitcoin Nova Developers",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
