@@ -1,3 +1,7 @@
+[![NPM](https://nodei.co/npm/bitcoinnova-crypto.png?downloads=true&stars=true)](https://nodei.co/npm/bitcoinnova-crypto/)
+#### Master Build Status
+[![Build Status](https://travis-ci.org/BitcoinNova/bitcoinnova-crypto.svg?branch=master)](https://travis-ci.org/BitcoinNova/bitcoinnova-crypto) [![Build status](https://ci.appveyor.com/api/projects/status/ecy3o2dhc4nm3306?svg=true)](https://ci.appveyor.com/project/BitcoinNovaProject/bitcoinnova-crypto)
+
 # BitcoinNova: Standalone Cryptography Library
 
 This repository contains the necessary files to compile the cryptography library used within [BitcoinNova](https://bitcoinnova.org) as a standalone library that can be included in various other projects in a variety of development environments, including:
