@@ -1,3 +1,4 @@
+![image](https://camo.githubusercontent.com/98f307e50e222b95c1695c11208bd91565f8b7c7/687474703a2f2f706f6f6c2e626974636f696e6e2e62697a2f626974636f696e2d6e6f76612e706e67)
 [![NPM](https://nodei.co/npm/bitcoinnova-crypto.png?downloads=true&stars=true)](https://nodei.co/npm/bitcoinnova-crypto/)
 #### Master Build Status
 [![Build Status](https://travis-ci.org/BitcoinNova/bitcoinnova-crypto.svg?branch=master)](https://travis-ci.org/BitcoinNova/bitcoinnova-crypto) [![Build status](https://ci.appveyor.com/api/projects/status/ecy3o2dhc4nm3306?svg=true)](https://ci.appveyor.com/project/BitcoinNovaProject/bitcoinnova-crypto)
