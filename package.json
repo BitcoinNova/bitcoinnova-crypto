@@ -1,6 +1,6 @@
 {
   "name": "bitcoinnova-crypto",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Node C++ Addon for Bitcoin Nova Cryptographic Functions",
   "main": "index.js",
   "scripts": {
