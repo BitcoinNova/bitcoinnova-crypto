@@ -97,7 +97,7 @@ sudo aptitude install -y -o Aptitude::ProblemResolver::SolutionCost='100*cancele
 sudo aptitude install build-essential clang-6.0 libstdc++-7-dev git cmake
 export CC=clang-6.0
 export CXX=clang++-6.0
-git clone -b master --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
+git clone -b master --recursive --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
 cd bitcoinnova-crypto
 mkdir build
 cd build
@@ -142,7 +142,7 @@ which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/H
 brew install --force cmake boost llvm
 export CC=/usr/local/opt/llvm/bin/clang
 export CXX=/usr/local/opt/llvm/bin/clang++
-git clone -b master --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
+git clone -b master --recursive --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
 cd bitcoinnova-crypto
 mkdir build
 cd build
@@ -191,7 +191,7 @@ You will need the following packages: CMake (2.8 or higher), make, and git.
 ### Compiling
 
 ```bash
-git clone -b master --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
+git clone -b master --recursive --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
 cd bitcoinnova-crypto
 bash ./build_js.sh
 ```
