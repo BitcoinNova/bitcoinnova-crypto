@@ -62,7 +62,7 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo apt-get update
 sudo apt-get install aptitude -y
 sudo aptitude install -y build-essential git cmake
-git clone -b master --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
+git clone -b master --recursive --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
 cd bitcoinnova-crypto
 mkdir build
 cd build
@@ -117,7 +117,7 @@ If you want to use clang, ensure you set the environment variables `CC` and `CXX
 See the ubuntu instructions for an example.
 
 ```bash
-git clone -b master --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
+git clone -b master --recursive --single-branch https://github.com/BitcoinNova/bitcoinnova-crypto
 cd bitcoinnova-crypto
 mkdir build
 cd build
